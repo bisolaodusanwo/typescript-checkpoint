@@ -1,9 +1,13 @@
 {
   "compilerOptions": {
-    "outDir": "./dist", // Output compiled JS to the dist folder
-    "rootDir": "./src", // TypeScript source files are in the src folder
     "target": "ES5",
-    "module": "commonjs"
+    "module": "ES6",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["src//*"]
 }
